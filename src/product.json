@@ -1,0 +1,137 @@
+
+[
+   {
+        "id":1,
+        "name":"Laptop",
+        "category":"Computers",
+        "brand":"TechBrand",
+        "price":999.99,
+        "stock":50,
+        "description":"A high-performance laptop suitable  for all your computing needs.*GB RAM, *TB SSD storage, and a powerful processor.",
+        "image_url":"../public/img/lapi.png",
+        "actual_price":850.89
+
+    },
+    {
+        "id":2,
+        "name":"Smartphone",
+         "category":"Electronics",
+        "brand":"PhoneMaker",
+        "price":699.99,
+        "stock":150,
+        "description":"A sleek smartphone with a stunning display and advanced camera features.*Incredible battery life and fast charging capabilities.",
+        "image_url":"../public/img/iphone.png",
+        "actual_price":659.99
+    },
+    {
+        "id":3,
+        "name":"Wireless Headphones",
+        "category":"Audio",
+        "brand":"SoundCo",
+        "price":199.99,
+        "stock":200,
+        "description":"Experience high-quality sound without the wires.*Noise-cancelling technology and comfortable ear cushions for extended use.",
+        "image_url":"../public/img/headphone.png",
+        "actual_price":169.99
+    },
+    {
+        "id":4,
+        "name":"Smartwatch",
+        "category":"Wearables",
+        "brand":"WristTech",
+        "price":249.99,
+        "stock":80,
+        "description":"Stay connected and track your fitness with this stylish smartwatch.*Features include heart rate monitoring, GPS, and customizable watch faces.",
+        "image_url":"../public/img/watch.png",
+        "actual_price":229.99
+    },
+        {
+        "id":5,
+        "name":"Bluetooth Speaker",
+        "category":"Audio",
+        "brand":"SoundWave",
+        "price":89.99,
+        "stock":120,
+        "description":"Portable Bluetooth speaker with rich sound quality and deep bass.*Water-resistant design makes it perfect for outdoor use.",
+        "image_url":"../public/img/Speakers.png",
+        "actual_price":79.99
+
+    },
+    {
+        "id":6,
+        "name":"4K Television",
+        "category":"Home Entertainment",
+        "brand":"ViewPlus",
+        "price":1199.99,
+        "stock":30,
+        "description":"Enjoy stunning 4K resolution and vibrant colors on this large-screen television.*Smart TV features with access to popular streaming services.",
+        "image_url":"../public/img/tv.png",
+        "actual_price":999.99
+    },
+    {
+        "id":7,
+        "name":"Gaming Console",
+        "category":"Gaming",
+        "brand":"GameBox",
+        "price":499.99,
+        "stock":60,
+        "description":"Next-gen gaming console with immersive graphics and fast load times.*Includes a wireless controller and access to a vast library of games.",
+        "image_url":"../public/img/console.jpg",
+        "actual_price":459.99
+    },
+    {
+        "id":8,
+        "name":"Digital Camera",
+        "category":"Photography",
+        "brand":"PhotoSnap",
+        "price":799.99,
+        "stock":40,
+        "description":"Capture stunning photos and videos with this high-resolution digital camera.*Features include optical zoom, image stabilization, and Wi-Fi connectivity.",
+        "image_url":"../public/img/camera.avif",
+        "actual_price":749.99
+    },
+    {
+        "id":9,
+        "name":"E-Reader",
+        "category":"Gadgets",
+        "brand":"ReadEasy",
+        "price":129.99,
+        "stock":90,
+        "description":"Lightweight e-reader with a glare-free display for comfortable reading.*Store thousands of books and access a vast library of e-books.",
+        "image_url":"../public/img/ereader.jpg",
+        "actual_price":119.99
+    },
+    {
+        "id":10,
+        "name":"Fitness Tracker",
+        "category":"Wearables",
+        "brand":"FitLife",
+        "price":59.99,
+        "stock":110,
+        "description":"Monitor your daily activity and health metrics with this compact fitness tracker.*Features include step counting, sleep tracking, and heart rate monitoring.",
+        "image_url":"../public/img/fitnesstracker.jpg",
+        "actual_price":49.99
+    },
+    {
+        "id":11,
+        "name":"Tablet",
+        "category":"Computers",
+        "brand":"TabWorld",
+        "price":399.99,
+        "stock":70,
+        "description":"Versatile tablet with a high-resolution display and powerful performance.*Perfect for work, entertainment, and creativity on the go.",
+        "image_url":"../public/img/atab.webp",
+        "actual_price":359.99
+    },
+    {
+        "id":12,
+        "name":"External Hard Drive",
+        "category":"Storage",
+        "brand":"DataStore",
+        "price":149.99,
+        "stock":130,
+        "description":"Reliable external hard drive with ample storage capacity for your files.*Fast data transfer speeds and durable design for on-the-go use.",
+        "image_url":"../public/img/harddrive.jpg",
+        "actual_price":129.99
+    }
+]

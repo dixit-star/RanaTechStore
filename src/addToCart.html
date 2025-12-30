@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    #orderNowMainContainer{
+      width: 65vw;
+      display: flex;
+      height: 20px;
+      margin-bottom: 20px;
+    }
+    .orderBtn{
+      background-color: black;
+      color: white;
+      border-radius: 4px;
+    }
+    .orderBtn:hover{
+      background-color: rgb(255, 252, 252);
+      color: rgb(0, 0, 0);
+      border-radius: 4px;
+    }
+  </style>
+</head>
+
+
+
+<body>
+  <!-- header -->
+  <header class="section-nav">
+    <section>
+      <div id="navbar">
+        <div style="margin-right: 85px;">
+          <p>Free Shipping, 30-day return or refund guarantee.</p>
+        </div>
+        <div>
+          <a href="#">SIGN-UP</a>
+          <a href="#">SIGN-IN</a>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div id="navbar2">
+        <div>
+          <img height="28px" src="../public/img/blackChauhan.jpeg" alt="">
+        </div>
+        <div id="navbar2-info">
+          <div style="margin-right: 20px;">
+            <a href="../index.html">HOME</a>
+            <a href="./about.html">ABOUT</a>
+            <a href="./product.html">PRODUCT</a>
+            <a href="./contact.html">CONTACT</a>
+          </div>
+          <a style="margin-top:3px;" href="./addToCart.html"><img height="30px"
+              src="https://vectorified.com/images/white-shopping-cart-icon-37.jpg" alt=""></a>
+          <div id="navbar2-cart-img">
+
+            <h2 id="navbar2-info-counter">0</h2>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+  <!--  -->
+  <div id="main-conatiner-backgroundcolor">
+    <div class="tost">
+
+    </div>
+    <section class="section-templet">
+      <div id="CartContainer">
+      </div>
+    </section>
+    <section>
+      <template id="productTemplete">
+
+        <div id="cardValue" class="cards">
+          <!-- <div class="asdf"> -->
+          <article class="information [card]">
+            <div class="cartcontaner">
+              <div class="productcontain">
+                <span class="categorycart"> </span>
+
+                <div class="imgeContainer">
+                  <img height="100px" class="cartproductImage" src="" alt="">
+                </div>
+
+
+                <h4 class="cartproductName"></h4>
+                <!-- </div> -->
+                <!-- <div class="productcontain"> -->
+                <p class="productPrice"></p>
+                <div class="productQuantityElement">
+                  <div class="stockElement">
+                    <button class="cartIncrement">+</button>
+                    <!-- <p class="productQuantity">0</p> -->
+                    <input class="productQuantity" type="number" value="1">
+                    <button class="cartdecrement">-</button>
+                  </div>
+                </div>
+                <button class="removeData">
+                  <i class="fa-solid fa-trash-can"></i>
+
+
+
+                </button>
+              </div>
+            </div>
+          </article>
+          <!-- </div> -->
+        </div>
+
+      </template>
+    </section>
+
+    <div id="maincontainer-productsummary">
+      <div class="productSummry">
+        <h4>Select Offer Summary</h4>
+        <div class="productdatacontainer">
+          <p>Sub Total</p>
+          <p id="subtotal"></p>
+        </div>
+        <div class="productdatacontainer">
+          <p id="taxdata">Tax 5%</p>
+          <p id="taxvalue"></p>
+        </div>
+        <div class="productdatacontainer">
+          <p style="color: black;">_____________________</p>
+        </div>
+        <div style="color: black;" class="productdatacontainer">
+          <p>Final Total</p>
+          <p id="TotalAmount"></p>
+        </div>
+      </div>
+    </div>
+    <div id="orderNowMainContainer">
+      <div id="orderNowContainer">
+        <button class="orderBtn">Order Now</button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- --------------footer-------------------- -->
+
+  <footer>
+    <div id="footer-container">
+
+      <div id="footer-main-container">
+        <div id="footer-box">
+          <div class="footer-contant-data">
+            <img style="margin-top: 15px;" width="70%" src="../public/img/blueChuhan.jpeg" alt="">
+            <p>Welcome to Rana Tech EcomStore, your ultimate destination for cutting <br>- edge gadgets.</p>
+            <img src="../public/img/cards.png" alt="">
+          </div>
+          <div class="footer-contant-data">
+            <h4>SHOPPING</h4>
+            <a href="#">Computer Store</a>
+
+            <a href="#">Laptop Store</a>
+
+            <a href="#">Accessories</a>
+
+            <a href="#"> Sales & Discount</a>
+          </div>
+          <div class="footer-contant-data">
+            <h4>EXPERIENCE</h4>
+            <a href="./contact.html">Contact Us</a>
+
+            <a href="#">Payment Method</a>
+
+            <a href="#">Delivery</a>
+
+            <a href="#">Return and Exchange</a>
+          </div>
+          <div class="footer-contant-data">
+            <h4>NEWSLETTER</h4>
+            <p style=" margin-top: 0px;">Be the first to now about new <br>arrivales &promos!</p>
+            <div id="inputfooter">
+              <input style="width: 12vw;background-color: rgb(16, 16, 16);" type="email" placeholder="@gamil.com"
+                name="" id="">
+            </div>
+          </div>
+        </div>
+        <div id="made-by">
+            <div class="footericon">
+            <a href="https://www.instagram.com/dixit_chauhan_987?igsh=M2tiajl6c3Z5emtm"><img src="../public/img/instagram-gradient-custom.png" alt=""></a>
+            </div>
+            <div class="footericon">
+             Designed & Developed by Dixit Chauhan
+            </div>
+           <div class="footericon">
+            <a href="mailto:dixit991752@gmail.com"><img src="../public/img/icons8-gmail-48.png" alt=""></a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script type="module" src="./showAddToCartCards.js">
+
+  </script>
+</body>
+
+</html>
